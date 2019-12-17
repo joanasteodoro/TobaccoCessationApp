@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="pt.tecnico.ulisboa.diic.tobaccobuddies">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".BuddyNonexistentActivity"></activity>
+        <activity android:name=".BuddyAlreadyExistisActivity" />
+        <activity android:name=".HalfLimitReachedActivity" />
+        <activity android:name=".BuddyRemovedActivity" />
+        <activity android:name=".BuddyAddedActivity" />
+        <activity android:name=".RemoveBuddyActivity" />
+        <activity android:name=".AddBuddyActivity" />
+        <activity android:name=".BuddyActivity" />
+        <activity android:name=".LimitsActivity" />
+        <activity android:name=".SettingsActivity" />
+        <activity android:name=".EmptyActivity" />
+        <activity android:name=".EPuppyActivity" />
+        <activity android:name=".MenuWeekActivity" />
+        <activity android:name=".MenuMonthActivity" />
+        <activity android:name=".MenuYearActivity" />
+        <activity android:name=".BuddyPageActivity" />
+        <activity android:name=".NotificationsActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".BuddyMonthActivity" />
+    </application>
+
+</manifest>
